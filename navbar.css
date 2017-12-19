@@ -1,0 +1,116 @@
+*{
+	box-sizing: content-box;
+}
+
+body{
+	background-color: white;
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+
+.banner{
+	background-color: #ff7a33;
+	padding: 40px 0;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	text-shadow: 4px 4px 4px black;
+}
+
+/* nav bar starts here*/
+nav .nav2{
+	background-color: #ff8b38;
+	text-align: center;
+	margin: 0px;
+}
+
+nav .nav2 .nav3{
+	display: inline-block;
+	padding:20px;
+	color:white;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px grey;
+
+}
+
+.nav1{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+nav .nav2 .nav3:hover{ 
+	background-color: #ff571f;
+}
+/* nav bar ends here */
+
+.bod{
+	width:90%;
+	margin: 0 auto;
+}
+
+/* main content begins*/
+.main{
+	width: 65%;
+	float: left;
+}
+
+
+/* main content ends */
+
+
+/* aside starts */
+aside{
+	width: 35%;
+	float: left;
+
+}
+
+.sect1{
+	border:10px solid #ff9c71;
+	margin: 10% 10% 10% 30%;
+	border-radius: 5px;
+	border-top: none;
+}
+
+.sect2{
+	border:10px solid #ff9c71;
+	margin: 10% 10% 10% 30%;
+	border-radius: 5px;
+	border-top: none;
+}
+
+h3{
+	padding: 20px 20px 20px 10px;
+	background-color: #ff9c71;
+	color: white;
+}
+
+/* aside ends */
+
+@media all and (max-width: 642px){
+	aside{
+		clear:both;
+		width: 100%;
+	}
+
+	.sect1{
+		float: left;
+		margin: 0 20px 20px 0;
+		padding: 0;
+	}
+
+	.sect2{
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+
+	.main{
+		width:100%;
+	}
+
+	h3{
+		margin: 0;
+	}
+}
